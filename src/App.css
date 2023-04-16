@@ -1,0 +1,33 @@
+button{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background: rgb(180, 98, 180);
+    color:white;
+    margin: 5px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.block{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -50px;
+    z-index: 2;
+    background: grey;
+    opacity: 0.5;
+}
+.blockBox{
+    width: 95%;
+    height: 150px;
+    background: white;
+    border-radius: 5px;
+    opacity: 10;
+    position: absolute;
+    top: 250px;
+    left: 2.5%;
+}
+p{
+    padding:15px 5px;
+    border-bottom: 0.5px solid #bdbdbd;
+}
